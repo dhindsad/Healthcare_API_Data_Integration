@@ -37,7 +37,12 @@ API Extract → Transform → Validate → Load
 - Generated summary report for validation and reporting
 
 ## Outputs
-- Raw data: data/raw/api_health_data.csv'
+- Raw data: `data/raw/api_health_data.csv`
 - Clean data: `data/processed/clean_api_health_data.csv`
 - Database: `outputs/api_health_database.db`
 - Summary report: `outputs/api_health_summary_report.csv`
+
+## How to Run
+
+```bash
+python scripts/run_pipeline.py
